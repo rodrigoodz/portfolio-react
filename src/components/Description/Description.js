@@ -6,7 +6,10 @@ import WriteEffect from "./WriteEffect";
 
 const Description = () => {
   return (
-    <div className="flex xl:flex-row flex-col flex-1 justify-center items-center  md:container md:mx-auto md:p-20 p-4 relative z-10">
+    <div
+      className="flex xl:flex-row flex-col flex-1 justify-center items-center  md:container md:mx-auto md:p-20 p-4 relative z-10"
+      id="description"
+    >
       <ParticlesEffect />
       <Fade left>
         <div className="md:mb-6 mb-40 md:w-96 md:h-96 h-48 w-48  ">
