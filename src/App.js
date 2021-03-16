@@ -12,7 +12,7 @@ function App() {
   };
   return (
     <div>
-      <div className="flex flex-col h-screen bg-gradient-to-b from-blue-900 via-blue-800 to-green-800">
+      <div className="flex flex-col h-screen bg-gradient-to-b from-blue-900 via-blue-800 to-green-800  ">
         <Header toggle={toggle} isOpen={isOpen} />
         <DropdownMenu isOpen={isOpen} toggle={toggle} />
         <Description />
