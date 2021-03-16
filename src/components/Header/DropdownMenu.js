@@ -12,7 +12,7 @@ const DropdownMenu = ({ isOpen }) => {
             : "hidden"
         }
       >
-        <NavbarItem name="Sobre Mi" />
+        <NavbarItem name="Sobre Mi" href="#about-me" />
         <NavbarItem name="Habilidades" />
         <NavbarItem name="Proyectos" />
         <NavbarItem name="Contactar" />
