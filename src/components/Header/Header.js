@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <>
       <Fade>
-        <div className="flex items-center justify-between shadow bg_mazarine md:px-8 px-2 ">
+        <div className="flex items-center justify-between shadow bg_mazarine md:px-8 px-2 relative z-20">
           <img src={logo} alt="logo" className="w-16" />
           <Navbar />
           <DropdownIcon toggle={toggle} isOpen={isOpen} />
