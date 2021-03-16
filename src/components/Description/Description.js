@@ -8,7 +8,7 @@ const Description = () => {
   return (
     <>
       <ParticlesEffect />
-      <div className="flex xl:flex-row flex-col flex-1 bg_mazarine justify-center items-center  md:container md:mx-auto md:p-20 p-4 ">
+      <div className="flex xl:flex-row flex-col flex-1 justify-center items-center  md:container md:mx-auto md:p-20 p-4 ">
         <Fade left>
           <div className="md:mb-6 mb-40  md:w-96 md:h-96 h-48 w-48  ">
             <img
