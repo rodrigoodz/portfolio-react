@@ -2,7 +2,7 @@ import React from "react";
 import NavbarItem from "./NavbarItem";
 import Fade from "react-reveal/Fade";
 
-const DropdownMenu = ({ isOpen }) => {
+const DropdownMenu = ({ isOpen, toggle }) => {
   return (
     <Fade top>
       <div
@@ -12,7 +12,7 @@ const DropdownMenu = ({ isOpen }) => {
             : "hidden"
         }
       >
-        <NavbarItem name="Sobre Mi" href="#about-me" />
+        <NavbarItem name="Sobre Mi" to="about-me" toggle={toggle} />
         <NavbarItem name="Habilidades" />
         <NavbarItem name="Proyectos" />
         <NavbarItem name="Contactar" />
