@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg_mazarine {
+  background-color:#273c75 ;
+}
+
+.bg_naval {
+  background-color: #40739e;
+}
