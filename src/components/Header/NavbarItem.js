@@ -1,10 +1,18 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-const NavbarItem = ({ name, href = "#" }) => {
+const NavbarItem = ({ name, to = "" }) => {
   return (
-    <li className="mx-4 text-white font-mono my-2">
-      <a href={href}>{name}</a>
-    </li>
+    <Link
+      activeClass="font-black"
+      to={to}
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+    >
+      <li className="mx-4 text-white font-sans my-2 cursor-pointer">{name}</li>
+    </Link>
   );
 };
 
