@@ -1,14 +1,23 @@
+import React, { useState } from "react";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Description from "./components/Description/Description";
+import DropdownMenu from "./components/Header/DropdownMenu";
 import Header from "./components/Header/Header";
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div>
       <div className="flex flex-col h-screen bg-gradient-to-b from-blue-900 via-blue-800 to-green-800">
-        <Header />
+        <Header toggle={toggle} isOpen={isOpen} />
+        <DropdownMenu isOpen={isOpen} />
         <Description />
       </div>
+
       <AboutMe />
       {/* About */}
       {/* Skills */}
