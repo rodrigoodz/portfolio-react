@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Description from "./components/Description/Description";
 import DropdownMenu from "./components/Header/DropdownMenu";
 import Header from "./components/Header/Header";
+import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Tools from "./components/Tools/Tools";
 
@@ -22,7 +23,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Tools />
-      {/* Projects */}
+      <Projects />
       {/* Footer */}
     </div>
   );
