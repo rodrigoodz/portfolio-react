@@ -13,7 +13,7 @@ const DropdownMenu = ({ isOpen, toggle }) => {
         }
       >
         <NavbarItem name="Sobre Mi" to="about-me" toggle={toggle} />
-        <NavbarItem name="Habilidades" />
+        <NavbarItem name="Habilidades" to="skills" toggle={toggle} />
         <NavbarItem name="Proyectos" />
         <NavbarItem name="Contactar" />
       </div>
