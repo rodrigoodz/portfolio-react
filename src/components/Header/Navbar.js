@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <ul className="md:flex hidden ">
       <NavbarItem name="Sobre Mi" to="about-me" />
-      <NavbarItem name="Habilidades" />
+      <NavbarItem name="Habilidades" to="skills" />
       <NavbarItem name="Proyectos" />
       <NavbarItem name="Contactar" />
     </ul>
