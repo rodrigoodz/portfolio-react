@@ -1,6 +1,6 @@
 import React from "react";
 
-const SkillGridItem = ({ name, children }) => {
+const GridItem = ({ name, children }) => {
   return (
     <div className="ring-2 ring-gray-50 ring-opacity-30 rounded p-4 flex flex-col items-center col-span-2 transform transition duration-300 hover:rotate-3 hover:scale-105">
       {children}
@@ -9,4 +9,4 @@ const SkillGridItem = ({ name, children }) => {
   );
 };
 
-export default SkillGridItem;
+export default GridItem;
