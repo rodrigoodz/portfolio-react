@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Description from "./components/Description/Description";
 import DropdownMenu from "./components/Header/DropdownMenu";
 import Header from "./components/Header/Header";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,8 @@ function App() {
         <DropdownMenu isOpen={isOpen} toggle={toggle} />
         <Description />
       </div>
-
       <AboutMe />
-      {/* About */}
-      {/* Skills */}
+      <Skills />
       {/* Projects */}
       {/* Footer */}
     </div>
