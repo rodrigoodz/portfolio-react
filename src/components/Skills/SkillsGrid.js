@@ -5,7 +5,7 @@ import GridItem from "../GridItem";
 const SkillsGrid = () => {
   return (
     <FiveColGridResponsive>
-      <GridItem name="Javascript (ES6)">
+      <GridItem name="Javascript">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
           <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z" />
           <path
