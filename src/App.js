@@ -4,6 +4,7 @@ import Description from "./components/Description/Description";
 import DropdownMenu from "./components/Header/DropdownMenu";
 import Header from "./components/Header/Header";
 import Skills from "./components/Skills/Skills";
+import Tools from "./components/Tools/Tools";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       </div>
       <AboutMe />
       <Skills />
+      <Tools />
       {/* Projects */}
       {/* Footer */}
     </div>
