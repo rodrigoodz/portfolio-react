@@ -8,7 +8,6 @@ const NavbarItem = ({ name, to = "", toggle }) => {
       to={to}
       spy={true}
       smooth={true}
-      offset={-70}
       duration={500}
       onClick={toggle}
     >
