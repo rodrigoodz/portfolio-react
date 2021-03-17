@@ -1,9 +1,10 @@
 import React from "react";
+import FiveColGridResponsive from "../FiveColGridResponsive";
 import SkillGridItem from "./SkillGridItem";
 
 const SkillsGrid = () => {
   return (
-    <div className="grid md:grid-cols-10 grid-cols-4  p-10 md:gap-32 gap-4 ">
+    <FiveColGridResponsive>
       <SkillGridItem name="Javascript (ES6)">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
           <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z" />
@@ -145,7 +146,7 @@ const SkillsGrid = () => {
           />
         </svg>
       </SkillGridItem>
-    </div>
+    </FiveColGridResponsive>
   );
 };
 
