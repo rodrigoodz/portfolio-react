@@ -1,6 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import profilePic from "../../assets/profile.jpg";
+import profilePic from "../../assets/profile_pic.jpg";
 import ParticlesEffect from "./ParticlesEffect";
 import WriteEffect from "./WriteEffect";
 
