@@ -7,7 +7,7 @@ const Navbar = () => {
       <NavbarItem name="Sobre Mi" to="about-me" />
       <NavbarItem name="Habilidades" to="skills" />
       <NavbarItem name="Herramientas" to="tools" />
-      <NavbarItem name="Proyectos" />
+      <NavbarItem name="Proyectos" to="projects" />
       <NavbarItem name="Contactar" />
     </ul>
   );

@@ -15,7 +15,7 @@ const DropdownMenu = ({ isOpen, toggle }) => {
         <NavbarItem name="Sobre Mi" to="about-me" toggle={toggle} />
         <NavbarItem name="Habilidades" to="skills" toggle={toggle} />
         <NavbarItem name="Herramientas" to="tools" toggle={toggle} />
-        <NavbarItem name="Proyectos" />
+        <NavbarItem name="Proyectos" to="projects" toggle={toggle} />
         <NavbarItem name="Contactar" />
       </div>
     </Fade>
