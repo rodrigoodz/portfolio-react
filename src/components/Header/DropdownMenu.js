@@ -6,7 +6,7 @@ const DropdownMenu = ({ isOpen, toggle }) => {
     <div
       className={
         isOpen
-          ? "grid grid-rows-4 text-center items-center list-none bg_naval top-16 w-full fixed z-20"
+          ? "text-center items-center list-none bg_naval top-16 w-full fixed z-20"
           : "hidden"
       }
     >

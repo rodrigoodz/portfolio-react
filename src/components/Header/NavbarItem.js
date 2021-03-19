@@ -12,7 +12,7 @@ const NavbarItem = ({ name, to = "", toggle }) => {
       duration={500}
       onClick={toggle}
     >
-      <li className="mx-4 text-white font-sans my-2 cursor-pointer transform transition duration-100 hover:scale-105">
+      <li className="py-1 mx-2 text-white font-sans my-2 cursor-pointer transform transition duration-100 hover:scale-105">
         {name}
       </li>
     </Link>
