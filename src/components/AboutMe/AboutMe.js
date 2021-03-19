@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
   return (
     <div
-      className="flex xl:flex-row flex-col flex-1 md:h-full  bg-green-800  justify-center items-center  md:p-20 p-4  relative z-10 "
+      className="flex xl:flex-row flex-col flex-1 md:h-full  bg-green-800  justify-center items-center  md:p-20 p-4 "
       id="about-me"
     >
       <Fade direction="bottom" cascade>
