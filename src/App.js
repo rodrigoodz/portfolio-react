@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AboutMe from "./components/AboutMe/AboutMe";
+import Contact from "./components/Contact/Contact";
 import Description from "./components/Description/Description";
 import DropdownMenu from "./components/Header/DropdownMenu";
 import Header from "./components/Header/Header";
@@ -24,6 +25,7 @@ function App() {
       <Skills />
       <Tools />
       <Projects />
+      <Contact />
       {/* Footer */}
     </div>
   );
