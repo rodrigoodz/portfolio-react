@@ -1,6 +1,6 @@
 import React from "react";
 import SocialIcons from "./SocialIcons";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const AboutMe = () => {
   return (
@@ -8,7 +8,7 @@ const AboutMe = () => {
       className="flex xl:flex-row flex-col flex-1 md:h-full  bg-green-800  justify-center items-center  md:p-20 p-4  relative z-10 "
       id="about-me"
     >
-      <Fade bottom cascade>
+      <Fade direction="bottom" cascade>
         <div className="flex flex-col md:container md:mx-auto  items-center">
           <h2 className="text-white md:text-3xl text-xl ">Acerca de Mi</h2>
           <svg

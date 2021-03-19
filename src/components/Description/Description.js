@@ -1,8 +1,8 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import profilePic from "../../assets/profile_pic.jpg";
 import ParticlesEffect from "./ParticlesEffect";
 import WriteEffect from "./WriteEffect";
+import { Slide } from "react-awesome-reveal";
 
 const Description = () => {
   return (
@@ -11,7 +11,7 @@ const Description = () => {
       id="description"
     >
       <ParticlesEffect />
-      <Fade left>
+      <Slide direction="left" triggerOnce>
         <div className="md:mb-6 mb-40 md:w-96 md:h-96 h-48 w-48  ">
           <img
             src={profilePic}
@@ -19,8 +19,8 @@ const Description = () => {
             className="h-full rounded-full shadow"
           />
         </div>
-      </Fade>
-      <Fade right>
+      </Slide>
+      <Slide direction="right" triggerOnce>
         <div className="md:ml-12 lg:w-2/3 ">
           <h3 className="text-white font-serif">
             Hola <span className="animate-hand">👋</span>, mi nombre es
@@ -30,7 +30,7 @@ const Description = () => {
           </h1>
           <WriteEffect />
         </div>
-      </Fade>
+      </Slide>
     </div>
   );
 };

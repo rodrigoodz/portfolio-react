@@ -1,6 +1,6 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import ToolsGrid from "./ToolsGrid";
+import { Fade } from "react-awesome-reveal";
 
 const Tools = () => {
   return (
@@ -8,7 +8,7 @@ const Tools = () => {
       className="flex xl:flex-row flex-col flex-1 md:h-full  bg-green-800  justify-center items-center  md:p-20 p-4  relative z-10 "
       id="tools"
     >
-      <Fade bottom cascade>
+      <Fade direction="bottom" cascade>
         <div className="flex flex-col md:container md:mx-auto items-center ">
           <h2 className="text-white md:text-3xl text-xl ">Herramientas</h2>
           <h3 className="text-gray-300 mt-2 font-thin  text-center">
