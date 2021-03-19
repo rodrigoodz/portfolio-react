@@ -17,9 +17,12 @@ const Project = ({
 
           {text}
           <div className="flex md:flex-row flex-col ">
-            {technologies.map((v) => {
+            {technologies.map((v, indx) => {
               return (
-                <h3 className="bg-gray-200 md:ml-3 md:mt-3 ml-1 mt-1 md:p-1 pl-2 md:ring-2 ring-gray-300  md:text-lg text-xs rounded">
+                <h3
+                  className="bg-gray-200 md:ml-3 md:mt-3 mx-1 mt-1 md:p-1 pl-2 md:ring-2 ring-gray-300  md:text-lg text-xs rounded"
+                  key={indx}
+                >
                   {v}
                 </h3>
               );
