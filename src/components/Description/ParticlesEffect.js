@@ -3,84 +3,116 @@ import Particles from "react-particles-js";
 
 const ParticlesEffect = () => {
   return (
-    <Particles
-      width="100"
-      params={{
-        fullScreen: {
-          enable: true,
-          zIndex: 0,
-        },
-        interactivity: {
-          modes: {
-            bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.8,
-              size: 40,
+    <div className=" absolute top-0  h-full w-screen">
+      <Particles
+        params={{
+          particles: {
+            number: {
+              value: 80,
+              density: {
+                enable: true,
+                value_area: 800,
+              },
             },
-            grab: {
-              distance: 400,
-            },
-          },
-        },
-        particles: {
-          collisions: {
-            enable: true,
-          },
-          color: {
-            value: "#ffffff",
-          },
-          links: {
             color: {
               value: "#ffffff",
             },
-
-            opacity: 0,
-          },
-          move: {
-            attract: {
-              rotate: {
-                x: 600,
-                y: 1200,
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 0,
+                color: "#000000",
+              },
+              polygon: {
+                nb_sides: 5,
+              },
+              image: {
+                src: "img/github.svg",
+                width: 100,
+                height: 100,
               },
             },
-            enable: true,
-            outModes: {
-              default: "bounce",
-              bottom: "bounce",
-              left: "bounce",
-              right: "bounce",
-              top: "bounce",
+            opacity: {
+              value: 0.5,
+              random: false,
+              anim: {
+                enable: false,
+                speed: 1,
+                opacity_min: 0.1,
+                sync: false,
+              },
             },
-            speed: 5,
-          },
-          number: {
-            density: {
+            size: {
+              value: 2,
+              random: true,
+              anim: {
+                enable: false,
+                speed: 40,
+                size_min: 0.1,
+                sync: false,
+              },
+            },
+            line_linked: {
               enable: true,
+              distance: 150,
+              color: "#ffffff",
+              opacity: 0.4,
+              width: 1,
             },
-            value: 80,
-          },
-          opacity: {
-            value: 0.5,
-            animation: {
-              minimumValue: 0.1,
-              speed: 1,
-            },
-          },
-          size: {
-            random: {
+            move: {
               enable: true,
-              minimumValue: 10,
-            },
-            value: 15,
-            animation: {
-              minimumValue: 0.1,
-              speed: 40,
+              speed: 2,
+              direction: "none",
+              random: false,
+              straight: false,
+              out_mode: "out",
+              bounce: false,
+              attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200,
+              },
             },
           },
-        },
-      }}
-    />
+          interactivity: {
+            detect_on: "canvas",
+            events: {
+              onhover: {
+                enable: true,
+                mode: "grab",
+              },
+              resize: true,
+            },
+            modes: {
+              grab: {
+                distance: 150,
+                line_linked: {
+                  opacity: 1,
+                },
+              },
+              bubble: {
+                distance: 400,
+                size: 40,
+                duration: 2,
+                opacity: 8,
+                speed: 3,
+              },
+              repulse: {
+                distance: 200,
+                duration: 0.4,
+              },
+              push: {
+                particles_nb: 4,
+              },
+              remove: {
+                particles_nb: 2,
+              },
+            },
+          },
+          retina_detect: true,
+        }}
+      />
+    </div>
   );
 };
 
