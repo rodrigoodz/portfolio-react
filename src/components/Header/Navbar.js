@@ -8,7 +8,6 @@ const Navbar = () => {
       <NavbarItem name="Habilidades" to="skills" />
       <NavbarItem name="Herramientas" to="tools" />
       <NavbarItem name="Proyectos" to="projects" />
-      <NavbarItem name="Contactar" />
     </ul>
   );
 };
