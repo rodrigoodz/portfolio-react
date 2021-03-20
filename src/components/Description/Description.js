@@ -7,25 +7,25 @@ import { Slide } from "react-awesome-reveal";
 const Description = () => {
   return (
     <div
-      className="flex xl:flex-row flex-col flex-1 justify-center items-center  md:container md:mx-auto md:p-20 p-4"
+      className="flex lg:flex-row flex-col h-screen w-screen justify-center items-center  md:p-20 p-4 "
       id="description"
     >
-      <ParticlesEffect />
+      {/* <ParticlesEffect /> */}
       <Slide direction="left" triggerOnce>
-        <div className="md:mb-6 mb-40 md:w-96 md:h-96 h-48 w-48  ">
+        <div className=" mr-0 lg:mr-4  lg:w-80 md:w-72 max-w-xs w-60 lg:mb-0 mb-5 ">
           <img
             src={profilePic}
             alt="profile_pic"
-            className="h-full rounded-full shadow"
+            className="rounded-full shadow "
           />
         </div>
       </Slide>
       <Slide direction="right" triggerOnce>
-        <div className="md:ml-12 lg:w-2/3 ">
+        <div className="lg:w-auto w-screen lg:text-left text-center ">
           <h3 className="text-white font-serif">
             Hola <span className="animate-hand">👋</span>, mi nombre es
           </h3>
-          <h1 className="text-white lg:text-6xl text-3xl font-black font-serif mb-4">
+          <h1 className="text-white lg:text-6xl text-3xl font-black font-serif mb-4 ">
             Rodrigo Ortiz de Zárate
           </h1>
           <WriteEffect />
