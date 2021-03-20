@@ -36,7 +36,7 @@ const AboutMe = () => {
             muchas herramientas base y conocimientos que me permitieron ahondar
             aun mucho más en el tema.
           </p>
-          <p className="md:text-xl text-white md:mb-3">
+          <p className="md:text-xl text-white md:mb-3 text-justify">
             Disfruto mucho diseñando sitios web responsivos asi como
             aplicaciones moviles, utilizando las herramientas que me provee el
             todopoderoso Javascript. Mi objetivo es crear componentes con
