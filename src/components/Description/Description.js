@@ -10,7 +10,7 @@ const Description = () => {
       className="flex lg:flex-row flex-col h-screen w-screen justify-center items-center  md:p-20 p-4 "
       id="description"
     >
-      {/* <ParticlesEffect /> */}
+      <ParticlesEffect />
       <Slide direction="left" triggerOnce>
         <div className=" mr-0 lg:mr-4  lg:w-80 md:w-72 max-w-xs w-60 lg:mb-0 mb-5 ">
           <img

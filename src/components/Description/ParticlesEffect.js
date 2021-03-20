@@ -3,8 +3,9 @@ import Particles from "react-particles-js";
 
 const ParticlesEffect = () => {
   return (
-    <div className=" absolute top-0  h-full w-screen">
+    <div className="  absolute top-0 h-full w-screen">
       <Particles
+        style={{ position: "absolute", width: "100", height: "100" }}
         params={{
           particles: {
             number: {
