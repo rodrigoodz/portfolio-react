@@ -25,7 +25,9 @@ const SocialIcons = () => {
       </a>
       <a
         className="shadow col-span-2 p-1 flex items-center justify-center align place-self-center  transform transition duration-200 hover:scale-125 text-white"
-        href={"https://github.com/rodrigoodz"}
+        href={
+          "https://www.linkedin.com/in/rodrigo-ortiz-de-z%C3%A1rate-82a1681a6/"
+        }
         target="blank"
       >
         <svg className="w-6 mr-2 text-white fill-current" viewBox="0 0 24 24">
