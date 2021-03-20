@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const Project = ({
   name,
@@ -9,32 +10,34 @@ const Project = ({
 }) => {
   return (
     <div className="relative ">
-      <a href={link} target="blank">
-        <div className="w-full h-full  absolute z-5 overflow-hidden">
-          <h1 className="text-white 2xl:text-4xl xl:text-3xl sm:text-xl  text-sm font-extrabold pl-3 pt-2">
-            {name}
-          </h1>
+      <Fade>
+        <a href={link} target="blank">
+          <div className="w-full h-full  absolute z-5 overflow-hidden">
+            <h1 className="text-white 2xl:text-4xl xl:text-3xl sm:text-xl  text-sm font-extrabold pl-3 pt-2">
+              {name}
+            </h1>
 
-          {text}
-          <div className="flex md:flex-row flex-col md:flex hidden">
-            {technologies.map((v, indx) => {
-              return (
-                <h3
-                  className="bg-gray-200 md:ml-3 md:mt-3 mx-1 mt-1 md:p-1 pl-2 md:ring-2 ring-gray-300  xl:text-lg text-xs rounded"
-                  key={indx}
-                >
-                  {v}
-                </h3>
-              );
-            })}
+            {text}
+            <div className="flex md:flex-row flex-col md:flex hidden">
+              {technologies.map((v, indx) => {
+                return (
+                  <h3
+                    className="bg-gray-200 md:ml-3 md:mt-3 mx-1 mt-1 md:p-1 pl-2 md:ring-2 ring-gray-300  xl:text-lg text-xs rounded"
+                    key={indx}
+                  >
+                    {v}
+                  </h3>
+                );
+              })}
+            </div>
           </div>
-        </div>
-        <img
-          src={img}
-          alt={`img_${name}`}
-          className="rounded-lg relative z-10 opacity-100 hover:opacity-20 w-full h-full transition duration-500 ease-in-out"
-        />
-      </a>
+          <img
+            src={img}
+            alt={`img_${name}`}
+            className="rounded-lg relative z-10 opacity-100 hover:opacity-20 w-full h-full transition duration-500 ease-in-out"
+          />
+        </a>
+      </Fade>
     </div>
   );
 };
