@@ -8,7 +8,7 @@ const Projects = () => {
       className="flex xl:flex-row flex-col flex-1 md:h-full  bg-green-800  justify-center items-center  lg:p-10 p-4 "
       id="projects"
     >
-      <Fade direction="bottom" cascade>
+      <Fade direction="bottom">
         <div className="flex flex-col md:container md:mx-auto  items-center ">
           <h2 className="text-white md:text-3xl text-xl ">Proyectos</h2>
           <h3 className="text-gray-300 mt-2 font-thin  text-center">
