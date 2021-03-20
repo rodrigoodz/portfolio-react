@@ -13,16 +13,16 @@ const Project = ({
       <Zoom triggerOnce>
         <a href={link} target="blank">
           <div className="w-full h-full  absolute z-5 overflow-hidden">
-            <h1 className="text-white md:text-4xl font-extrabold text-xl pl-3 pt-2">
+            <h1 className="text-white 2xl:text-4xl xl:text-3xl sm:text-xl  text-sm font-extrabold pl-3 pt-2">
               {name}
             </h1>
 
             {text}
-            <div className="flex md:flex-row flex-col ">
+            <div className="flex md:flex-row flex-col md:flex hidden">
               {technologies.map((v, indx) => {
                 return (
                   <h3
-                    className="bg-gray-200 md:ml-3 md:mt-3 mx-1 mt-1 md:p-1 pl-2 md:ring-2 ring-gray-300  md:text-lg text-xs rounded"
+                    className="bg-gray-200 md:ml-3 md:mt-3 mx-1 mt-1 md:p-1 pl-2 md:ring-2 ring-gray-300  xl:text-lg text-xs rounded"
                     key={indx}
                   >
                     {v}

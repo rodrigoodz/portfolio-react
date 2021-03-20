@@ -16,11 +16,11 @@ const ProjectsGrid = () => {
         img={iol_project}
         text={
           <>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2">
+            <p className="text-white 2xl:text-lg  text-sm pl-3 pt-2">
               Aplicacion movil construida usando React Native para consumir los
               servicios de InvertirOnline.com
             </p>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2 md:block hidden">
+            <p className="text-white 2xl:text-lg text-sm pl-3 pt-2 lg:block hidden">
               Esta aplicacion permite:
               <br />
               - Comprar/Vender activos.
@@ -48,7 +48,7 @@ const ProjectsGrid = () => {
         img={portfolio_project}
         text={
           <>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2">
+            <p className="text-white 2xl:text-lg text-sm pl-3 pt-2">
               Portfolio personal desarrollado desde cero utilizando React. Para
               el estilo utilicé Tailwind, tecnologia que en los ultimos años
               está en auge y me permitió un desarrollo bastante agil respecto a
@@ -64,7 +64,7 @@ const ProjectsGrid = () => {
         img={planestudio_project}
         text={
           <>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2">
+            <p className="text-white 2xl:text-lg text-sm pl-3 pt-2">
               Plan de estudio interactivo de las carreras de la UNL-FICH
               realizado en VanillaJS con el objetivo de ver de forma clara el
               avance en la carrera y las diferentes correlatividades entre
@@ -80,12 +80,12 @@ const ProjectsGrid = () => {
         img={argstockbot_project}
         text={
           <>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2">
+            <p className="text-white 2xl:text-lg text-sm pl-3 pt-2">
               Bot para Telegram desarrollado con NodeJS y con el fin de realizar
               ciertas tareas relacionadas a la bolsa de valores argentina y
               estadounidense
             </p>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2 md:block hidden">
+            <p className="text-white 2xl:text-lg text-sm pl-3 pt-2 lg:block hidden">
               Entre los comandos se encuentran:
               <br />
               - /ticker ... -&gt; consultar un ticker particular
@@ -111,7 +111,7 @@ const ProjectsGrid = () => {
         img={webofcamrecorder_project}
         text={
           <>
-            <p className="text-white md:text-xl text-sm pl-3 pt-2">
+            <p className="text-white 2xl:text-lg text-sm pl-3 pt-2">
               Desarrollo en NodeJS para utilizar un iPhone 4 como cámara de
               seguridad de forma local con más funcionalidades de las
               permitidas.
