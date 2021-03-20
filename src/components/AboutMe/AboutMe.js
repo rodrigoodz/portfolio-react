@@ -25,16 +25,16 @@ const AboutMe = () => {
               d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
             />
           </svg>
-          <p className="md:text-xl text-white md:mb-3">
+          <p className="md:text-xl text-white md:mb-3 text-justify">
             Hola!, soy Rodrigo y estoy actualmente estoy cursando mi ultimo año
-            de Ingenieria en Informatica en la Universidad Nacional del Litoral.
+            de Ingeniería en Informática en la Universidad Nacional del Litoral.
             Desde muy chico estuve interesado en todo lo relacionado con la
-            Informatica, y fue en la escuela donde por primera vez pude tener
-            contacto con un codigo de programacion con el tan olvidado 'Visual
-            Fox Pro'. Desde ese momento mi interes por el desarrollo se vió en
+            Informática, y fue en la escuela donde por primera vez pude tener
+            contacto con un código de programación con el tan olvidado 'Visual
+            Fox Pro'. Desde ese momento mi interés por el desarrollo se vio en
             aumento hasta llegar a la universidad, donde pude obtener acceso a
             muchas herramientas base y conocimientos que me permitieron ahondar
-            mucho más aun en el tema.
+            aun mucho más en el tema.
           </p>
           <p className="md:text-xl text-white md:mb-3">
             Disfruto mucho diseñando sitios web responsivos asi como
