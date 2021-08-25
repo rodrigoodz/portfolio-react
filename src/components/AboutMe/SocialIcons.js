@@ -2,9 +2,9 @@ import React from "react";
 
 const SocialIcons = () => {
   return (
-    <div className="mt-3 p-2 w-full grid grid-cols-4  gap-4 ">
+    <div className="grid w-full grid-cols-4 gap-4 p-2 mt-3 ">
       <a
-        className="shadow col-span-2 p-1 flex items-center justify-center align place-self-center transform transition duration-200 hover:scale-125 text-white"
+        className="flex items-center justify-center col-span-2 p-1 text-white transition duration-200 transform shadow align place-self-center hover:scale-125"
         href={"https://github.com/rodrigoodz"}
         target="blank"
       >
@@ -14,7 +14,7 @@ const SocialIcons = () => {
         Github
       </a>
       <a
-        className=" shadow col-span-2 p-1 flex items-center justify-center align place-self-center  transform transition duration-200 hover:scale-125 text-white"
+        className="flex items-center justify-center col-span-2 p-1 text-white transition duration-200 transform shadow  align place-self-center hover:scale-125"
         href={"mailto:rodrigoodz@gmail.com"}
         target="blank"
       >
@@ -24,10 +24,8 @@ const SocialIcons = () => {
         Correo
       </a>
       <a
-        className="shadow col-span-2 p-1 flex items-center justify-center align place-self-center  transform transition duration-200 hover:scale-125 text-white"
-        href={
-          "https://www.linkedin.com/in/rodrigo-ortiz-de-z%C3%A1rate-82a1681a6/"
-        }
+        className="flex items-center justify-center col-span-2 p-1 text-white transition duration-200 transform shadow align place-self-center hover:scale-125"
+        href={"https://www.linkedin.com/in/rodrigo-ortiz-de-zarate/"}
         target="blank"
       >
         <svg className="w-6 mr-2 text-white fill-current" viewBox="0 0 24 24">
@@ -36,7 +34,7 @@ const SocialIcons = () => {
         Linkedin
       </a>
       <a
-        className="shadow col-span-2 p-1 flex items-center justify-center align place-self-center  transform transition duration-200 hover:scale-125 text-white"
+        className="flex items-center justify-center col-span-2 p-1 text-white transition duration-200 transform shadow align place-self-center hover:scale-125"
         href={"https://twitter.com/rodrigoodz"}
         target="blank"
       >
